@@ -38,6 +38,25 @@ hr {
   border:1px dotted;
 }
 
+.header-text {
+  position:relative;
+  top:-330px;
+  text-align:center;
+}
+
+strong {
+  color:white;
+  font-size:78px;
+  font-family: 'Raleway', sans-serif;
+  text-shadow: 1px 1px 2px #E3D9BB;
+}
+
+aside {
+  color:white;
+  font-size:20px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
 .materialboxed {
   margin-top:20px !important;
   margin-bottom:20px !important;
