@@ -40,8 +40,8 @@ hr {
 }
 
 .myPic {
-  width:150px;
-  height:150px;
+  width:180px;
+  height:180px;
 }
 
 .send-button {
@@ -50,8 +50,14 @@ hr {
   font-size:13px !important;
 }
 
-.col m12 s12 .footer {
-  font-size:33px !important;
+span.footer {
+  font-size:14px !important;
+}
+
+span {
+  line-height:30px;
+  font-family: 'Raleway', sans-serif;
+  font-size:14px;
 }
 
 
