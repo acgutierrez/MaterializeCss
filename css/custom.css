@@ -30,6 +30,10 @@ h1 {
   color:#203340;
 }
 
+h4 {
+  color:#DC0809;
+}
+
 hr {
   border:1px dotted;
 }
@@ -60,8 +64,11 @@ span {
   font-size:14px;
 }
 
+em {
+  color:#1D7C80;
+}
 
-/*when scroliing*/
+/*when scrolling*/
 nav.scrolled {
   background-color: white !important;
   transition: background-color 700ms linear;
