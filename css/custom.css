@@ -7,14 +7,6 @@ ul li a {
   font-weight:bold;
 }
 
-
-/*when scroliing*/
-nav.scrolled {
-  background-color: white !important;
-  transition: background-color 200ms linear;
-}
-
-
 .nav-wrapper > a {
   color:#42342F;
   font-family: 'Bubblegum Sans', cursive;
@@ -35,7 +27,7 @@ h6 {
 
 h1 {
   font-family: 'Josefin Sans', sans-serif;
-  color:#16C4C7;
+  color:#203340;
 }
 
 hr {
@@ -48,6 +40,44 @@ hr {
 }
 
 .myPic {
-  width:200px;
-  height:200px;
+  width:150px;
+  height:150px;
 }
+
+.send-button {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:bold;
+  font-size:13px !important;
+}
+
+.col m12 s12 .footer {
+  font-size:33px !important;
+}
+
+
+/*when scroliing*/
+nav.scrolled {
+  background-color: white !important;
+  transition: background-color 700ms linear;
+}
+
+
+/*modified input-type/textarea color*/
+/* label color */
+  .input-field label {
+    color: black;
+  }
+  /* label focus color */
+  textarea:focus + label, .input-field input[type=text]:focus + label {
+    color: black !important;
+  }
+  /* label underline focus color */
+  textarea:focus, .input-field input[type=text]:focus {
+    border-bottom: 1px solid black !important;
+    box-shadow: 0 1px 0 0 black !important;
+  }
+
+  /* icon prefix focus color */
+  .input-field .prefix.active {
+    color: #565656;
+  }
