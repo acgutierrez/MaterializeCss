@@ -38,9 +38,19 @@ hr {
   border:1px dotted;
 }
 
-.header-text {
+
+/* Header style*/
+.container-fluid {
   position:relative;
-  top:-330px;
+}
+
+.header-txt {
+    left: 0;
+    right: 0;
+    margin:auto;
+
+  position:absolute;
+  top:120px;
   text-align:center;
 }
 
@@ -55,7 +65,14 @@ aside {
   color:white;
   font-size:20px;
   font-family: 'Josefin Sans', sans-serif;
+  margin-bottom:30px;
 }
+
+.btn-large {
+  text-transform:none;
+}
+/*end for header style*/
+
 
 .materialboxed {
   margin-top:20px !important;
